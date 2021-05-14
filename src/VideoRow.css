@@ -1,0 +1,45 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 700px;
+  cursor: pointer;
+}
+
+.videoRow > img {
+  object-fit: contain;
+  width: 300px;
+  height: 150px;
+}
+
+.videoRow__text {
+  margin-left: 14px;
+}
+
+.videoRow__info {
+  color: #606060
+}
+
+.videoRow__headline {
+  font-size: 12px;
+}
+
+.videoRow__channel {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.videoRow__icon {
+  height: 22px !important;
+  width: 22px !important;
+  margin-right: 7px;
+}
+
+.videoRow__verified {
+  font-size: xx-small !important;
+}
+
+.videoRow__description {
+  font-size: 12px;
+}

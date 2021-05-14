@@ -1,0 +1,86 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid lightgray;
+  background: #fff;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.header__menu {
+  padding-left: 0px;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 18px;
+  margin-left: 12px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  margin-left: 3rem;
+  align-items: center;
+}
+
+.header__input {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 4px;
+  padding: 6px;
+  padding-left: 10px;
+  height: 18px;
+  border-radius: 2px 0 0 2px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  color: #111111;
+}
+
+.header__inputButton {
+  width: 55px !important;
+  height: 12px;
+  margin-right: 2rem;
+  margin-left: -1px;
+  padding: 3px;
+  border-radius: 0 2px 2px 0;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  color: #606060;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  color: #606060;
+}
+
+.header__icon {
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .header__search {
+    display: none;
+  }
+}
