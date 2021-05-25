@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Youtube Clone
+
+Deploy it live here:
+https://yt-clone-2308e.web.app/
+
+![yt-clone](https://user-images.githubusercontent.com/78442208/119441588-394adf80-bcdb-11eb-9018-4baa7f43309b.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
